@@ -24,15 +24,6 @@ void pop()
     top=top->next;
     free(t);
 }
-void display()
-{
-    struct node *p=top;
-    while(p!=NULL)
-    {
-        printf("%d ",p->data);
-        p=p->next;
-    }
-}
 
 int isbalance(string exp)
 {
